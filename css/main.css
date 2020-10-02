@@ -1,0 +1,47 @@
+/* TypeWriter Code */
+/* .vim-caret {
+-webkit-animation:vimCaret 0.1s linear infinite;
+-o-animation:vimCaret 0.1s linear infinite;
+animation:vimCaret 0.5s linear infinite
+}
+
+@keyframes vimCaret {
+    0% {    
+        background-color:orange
+    }
+    49% {
+        background-color:transparent
+    }
+    50% {
+        background-color:rgba(255,255,255,.2)
+    }
+    100% {
+        background-color:rgba(255,255,255,.2)
+    }
+} */
+
+#header {
+    height: 100vh;
+    min-height: 500px;
+}
+
+body{
+    background-image: url('../images/background.jfif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#content-wrap{
+    /* width: 100px;
+	height: 100px;
+	 */
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
