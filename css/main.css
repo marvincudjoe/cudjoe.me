@@ -45,3 +45,13 @@ body{
   	
 	margin: auto;
 }
+/* Buttons configuration */
+.btn{
+    background-color: transparent;
+
+}
+.btn:hover, .btnfocus, .btnactive, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: rgb(0, 0, 0);
+    background-color: transparent; 
+    border-color: #d1a30b; /*set the color you want here*/
+}
