@@ -1,16 +1,19 @@
+/* TypeWriter Section */
 var demo = document.getElementById('demo');
-
 var typewriter = new Typewriter(demo, {
   loop: true,
   delay: 75,
 });
 
 typewriter
-  .pauseFor(2500)
-  .typeString('A simple yet powerful native javascript')
-  .pauseFor(300)
-  .deleteChars(10)
-  .typeString('<strong>JS</strong> plugin for a cool typewriter effect and ')
-  .typeString('<strong>only <span style="color: #27ae60;">5kb</span> Gzipped!</strong>')
-  .pauseFor(1000)
+  .pauseFor(250)
+  .typeString("Please click")
+  .pauseFor(500)
+  .deleteChars(5)
+  .typeString("visit")
+  .pauseFor(250)
+  .deleteChars(12)
+  .typeString("Just drop me a message :]")
+  .pauseFor(19000)
   .start();
+  
