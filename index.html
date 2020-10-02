@@ -3,41 +3,40 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Just a dump</title>
-
+	<title>Repo</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
 
 
 	<link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-	<!-- Place this tag in your head or just before your close body tag. -->
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
 
 </head>
 
 <body>
-	<!-- Full Page Image Header with Vertically Centered Content -->
-	<header class="main">
-		<div class="container h-100">
+<div class="page-container">
+	<!-- Full Page Header with Vertically Centered Content -->
+	<header id="header">		
+		<div id="content-wrap" class="container h=100">
 			<div class="row h-100 align-items-center">
-
 				<div class="col-12 text-center">
-					<h1>Unfinished Pieces</h1>
+					<img src="images/avatar.png" alt="Page Avatar">
+					<h1>Unfinished Piece<!--<span class="vim-caret">...</span>--></h1>
 					
-					<div class="lead mb-3 text-mono text-success">loading<span class="vim-caret">...</span></div>
+					<!-- For typewriter text -->
+					<p id="demo" class="text-muted"></p>
 
-					<p class="lead">Please click below to visit </p>
-					<p id="demo">Please click below to visit </p>
-					
-					<button type="button" class="btn btn-outline-dark btn-lg" onclick="window.location.href='https://www.github.com/marvincudjoe'"><i class="fab fa-github"></i> Github</button>
+					<!-- Buttons -->					
+					<button class="btn btn-outline-dark btn-lg" onclick="window.open('https://www.github.com/marvincudjoe','_blank')"><i class="fab fa-github"></i> Github</button>
 
-					<button type="button" class="btn btn-outline-dark btn-lg" onclick="'www.instagram.com/cudjoe.me'"><i class="fab fa-instagram"></i> Instagram</button>
+					<button class="btn btn-outline-dark btn-lg" onclick="window.open('https://instagram.com/cudjoe.me','_blank')"><i class="fab fa-instagram"></i> Instagram</button>
+
+					<button type="button" class="btn btn-outline-primary btn-lg disabled" >Useful Links</button>
 				</div>
-
 			</div>
 		</div>
 	</header>
-
+</div>
 </body>
 
 <script type='text/javascript' src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
